@@ -1,3 +1,22 @@
+#shapearea {
+    height: 600px;
+    width: 600px;
+    background: cadetblue;
+    float: right;
+    position: relative;
+    top: -26em;
+    margin: 1em;
+    
+}
+#shapeinfo {
+    border: 2px solid black;
+    display: block;
+    width: 200px;
+    float: right;
+    top: -26em;
+    padding: 5px;
+}
+
 .square {
 	width: 0px;
 	height: 0px;
@@ -7,21 +26,29 @@
 .rectangle {
 	width: 0px;
 	height: 0px;
-	background: red;
+	background: green;
 }
 
 .circle {
 	width: 0px;
 	height: 0px;
-	background: red;
+	background: purple;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
 .triangle-bottomleft {
-	width: 0;
-	height: 0;
-	border-bottom: 100px solid red;
+	width: 0px;
+	height: 0px;
+	border-bottom: 100px solid yellow;
 	border-left: 100px solid transparent;
+}
+
+button {
+    width: 6em;
+    height: 3em;
+    padding: 1em;
+    display: block;
+    margin: 5px;
 }
