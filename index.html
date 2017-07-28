@@ -11,36 +11,36 @@
     <h2>Shape Generater</h2>
     <p>Rectangle: </p>
         <input type="text" id="rectheight" placeholder="Height">
-        <input type="text" placeholder="Width">
-            <button>Insert</button>
+        <input type="text" id="rectwidth" placeholder="Width">
+            <button id="MakeRect" >Insert</button>
 
     <p>Square:  </p>
         <input type="text" id="squarelength" placeholder="Side Length">
-            <button>Insert</button>
+            <button id="MakeSquare" >Insert</button>
 
     <p>Circle: </p> 
         <input type="text" id="circleradius" placeholder="Radius">
-            <button>Insert</button>
+            <button id="Makecircle" >Insert</button>
 
     <p>Triangle: </p>
         <input type="text" id="triangleheight" placeholder="Height">
-            <button>Insert</button>
+            <button id="Maketriangle" >Insert</button>
 
     
 
     <div id="shapeinfo">
-        <p>Shape:</p>    
-        <p>Width:</p>    
-        <p>Height:</p>    
-        <p>Radius:</p>    
-        <p>Area:</p>  
-        <p>Perimeter:</p>        
+        <p id="shape" >Shape Name:</p>    
+        <p id="width">Width:</p>    
+        <p id="height">Height:</p>    
+        <p id="radius">Radius:</p>    
+        <p id="area">Area:</p>  
+        <p id="pizza">Perimeter:</p>        
     </div>    
-    <div id="shapearea" style="border:1px solid #d3d3d3;"></div>
+    <div id="field" style="border:1px solid #d3d3d3;"></div>
     
     
     
-        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
