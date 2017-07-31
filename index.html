@@ -10,36 +10,31 @@
 <body> 
     <h2>Shape Generater</h2>
     <p>Rectangle: </p>
-        <input type="text" id="rectheight" placeholder="Height">
-        <input type="text" id="rectwidth" placeholder="Width">
-            <button id="MakeRect" >Insert</button>
+        <input type="text" id="rect-height" placeholder="Height">
+        <input type="text" id="rect-width" placeholder="Width">
+            <button id="MakeRect" onclick="makeRectangle()">Insert</button>
 
     <p>Square:  </p>
-        <input type="text" id="squarelength" placeholder="Side Length">
-            <button id="MakeSquare" >Insert</button>
+        <input type="text" id="square-length" placeholder="Side Length">
+            <button id="MakeSquare" onclick="makeSquare()">Insert</button>
 
     <p>Circle: </p> 
-        <input type="text" id="circleradius" placeholder="Radius">
-            <button id="Makecircle" >Insert</button>
+        <input type="text" id="circle-radius" placeholder="Radius">
+            <button id="Makecircle" onclick="makeCircle()">Insert</button>
 
     <p>Triangle: </p>
-        <input type="text" id="triangleheight" placeholder="Height">
-            <button id="Maketriangle" >Insert</button>
-
-    
+        <input type="text" id="triangle-height" placeholder="Height">
+            <button id="Maketriangle" onclick="makeTriangle()">Insert</button>
 
     <div id="shapeinfo">
-        <p id="shape" >Shape Name:</p>    
-        <p id="width">Width:</p>    
-        <p id="height">Height:</p>    
-        <p id="radius">Radius:</p>    
-        <p id="area">Area:</p>  
-        <p id="pizza">Perimeter:</p>        
+        <p id="shape">Shape Name: </p>    
+        <p id="width">Width: </p>    
+        <p id="height">Height: </p>    
+        <p id="radius">Radius: </p>    
+        <p id="area">Area: </p>  
+        <p id="perimeter">Perimeter: </p>        
     </div>    
-    <div id="field" style="border:1px solid #d3d3d3;"></div>
-    
-    
-    
+    <div class="field"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js" type="text/javascript"></script>
 </body>

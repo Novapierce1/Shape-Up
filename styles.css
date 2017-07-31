@@ -1,4 +1,4 @@
-#shapearea {
+.field {
     height: 600px;
     width: 600px;
     background: cadetblue;
@@ -19,10 +19,12 @@
 
 .square {
 	background: red;
+    position: absolute;
 }
 
 .rectangle {
 	background: green;
+    position: absolute;
 }
 
 .circle {
@@ -30,11 +32,13 @@
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+    position: absolute;
 }
 
-.triangle-bottomleft {
-	border-bottom: 100px solid yellow;
-	border-left: 100px solid transparent;
+.triangle {
+	height: 0;
+    width: 0;
+    position: absolute;
 }
 
 button {
